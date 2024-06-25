@@ -43,7 +43,7 @@ The tool will then find the smallest k composite non-factors of 20! and visualiz
 
 ## Usage
 
-1. Set up a local web server (see below)
+1. Set up a local web server (see below) or access [link](https://pbanuru.github.io/Factorial-Composite-NonFactors-Visualizer/)
 2. Use the sliders on x, k, n, and p to set your desired parameters
 3. Click the "Visualize" button or adjust sliders to see results (will automatically visualize).
    Clicking the Visualize button can also fix the bounding box borders after resizing the webpage.
