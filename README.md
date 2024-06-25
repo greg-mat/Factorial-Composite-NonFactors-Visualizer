@@ -40,9 +40,32 @@ The tool will then find the smallest k composite non-factors of 20! and visualiz
 
 ## Usage
 
-1. Adjust the sliders to set the values for x, k, n, and p.
-2. Click the "Visualize" button to generate the visualization.
-3. Observe the table and the highlighted composite non-factors.
+1. Set up a local web server (see below)
+2. Use the sliders on x, k, n, and p to set your desired parameters
+3. Click the "Visualize" button or adjust sliders to see results (will automatically visualize)
+4. Observe the table for highlighted non-factors and patterns
+
+### Setting Up a Local Web Server
+
+This project requires a web server to run properly due to module imports. Here's how to set one up using Python:
+
+1. Open a terminal or command prompt
+2. Navigate to the project directory
+3. Run one of the following commands based on your Python version:
+
+   Python 3.x:
+   ```
+   python -m http.server 8000
+   ```
+
+   Python 2.x:
+   ```
+   python -m SimpleHTTPServer 8000
+   ```
+
+4. Open your web browser and go to `http://localhost:8000`
+
+You should now see the Composite Non-Factors Visualizer running locally.
 
 ## Technical Details
 
@@ -50,10 +73,11 @@ The project is implemented using HTML, CSS, and JavaScript. The visualization lo
 
 ## Future Enhancements
 
-- Add more interactive features such as tooltips and detailed explanations for each step.
+- Add more interactive features such as tooltips and detailed explanations for each step on the site.
 - Optimize the algorithm for larger values of x, k, n, and p.
-- Provide options to export the visualization as an image or PDF.
 
 ## License
 
 This project is licensed under the MIT License.
+
+
