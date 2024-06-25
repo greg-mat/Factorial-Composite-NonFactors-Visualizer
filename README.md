@@ -1,7 +1,7 @@
-### Composite Non-Factors Visualizer
+### Factorial Composite Non-Factors Visualizer
 https://pbanuru.github.io/Factorial-Composite-NonFactors-Visualizer/
 
-The Composite Non-Factors Visualizer is a web-based tool designed to help users understand the relationship between composite non-factors of a factorial and their multiples. The tool allows users to visualize the smallest composite non-factors of a given factorial and see how they relate to the multiples of prime numbers greater than the base number.
+The Factorial Composite Non-Factors Visualizer is a web-based tool designed to help users understand the relationship between composite non-factors of a factorial and their multiples. The tool allows users to visualize the smallest composite non-factors of a given factorial and see how they relate to the multiples of prime numbers greater than the base number.
 
 ## How It Works
 
