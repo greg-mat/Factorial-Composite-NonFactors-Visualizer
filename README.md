@@ -1,4 +1,5 @@
 ### Composite Non-Factors Visualizer
+https://pbanuru.github.io/Factorial-Composite-NonFactors-Visualizer/
 
 The Composite Non-Factors Visualizer is a web-based tool designed to help users understand the relationship between composite non-factors of a factorial and their multiples. The tool allows users to visualize the smallest composite non-factors of a given factorial and see how they relate to the multiples of prime numbers greater than the base number.
 
@@ -36,14 +37,17 @@ For `x = 20`, `n = 5`, and `p = 4`:
   - 37: 74, 111, 148, 185
   - 41: 82, 123, 164, 205
 
-The tool will then find the smallest k composite non-factors of 20! and visualize them within the table of multiples.
+The tool will then find the smallest k composite non-factors of 20! and visualize them within the table of multiples, depending on k.
+
+![image](https://github.com/pbanuru/Factorial-Composite-NonFactors-Visualizer/assets/55062649/b01486df-74b9-455c-a184-7f8ca6c62ad0)
 
 ## Usage
 
 1. Set up a local web server (see below)
 2. Use the sliders on x, k, n, and p to set your desired parameters
-3. Click the "Visualize" button or adjust sliders to see results (will automatically visualize)
-4. Observe the table for highlighted non-factors and patterns
+3. Click the "Visualize" button or adjust sliders to see results (will automatically visualize).
+   Clicking the Visualize button can also fix the bounding box borders after resizing the webpage.
+5. Observe the table for highlighted non-factors and patterns
 
 ### Setting Up a Local Web Server
 
