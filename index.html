@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composite Non-Factors Visualizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h1>K-Smallest Factorial Composite Non-Factors Visualizer</h1>
+
+<label for="x-slider">x (Base number for factorial):</label>
+<input type="range" id="x-slider" min="1" max="300" value="10" oninput="updateXValue(this.value)" class="full-width-slider">
+<span id="x-value">10</span>
+<br>
+<label for="k-slider">k (Number of smallest composite non-factors):</label>
+<input type="range" id="k-slider" min="1" max="500" value="11" oninput="updateKValue(this.value)" class="full-width-slider">
+<span id="k-value">5</span>
+<br>
+<label for="n-slider">n (Number of primes greater than x):</label>
+<input type="range" id="n-slider" min="1" max="60" value="21" oninput="updateNValue(this.value)" class="full-width-slider">
+<span id="n-value">5</span>
+<br>
+<label for="p-slider">p (Number of multiples for each prime):</label>
+<input type="range" id="p-slider" min="1" max="60" value="7" oninput="updatePValue(this.value)" class="full-width-slider">
+<span id="p-value">4</span>
+<br>
+<br>
+<button onclick="visualize()">Visualize</button>
+
+<div id="visualizer"></div>
+
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
